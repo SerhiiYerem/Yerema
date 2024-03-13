@@ -1,0 +1,19 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+69,19,85,78,26,42,44,6,80,34,55,22,98,64,12,21,51,51,80,15,68,36,87,90,31,72,90 / apple
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+orange
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+29 - false
+const capitalizeString = str => str.toUpperCase();
+false / 14
+const getRandomSubset = (array, size) => array.slice(0, size);
+const findLargestNumber = numbers => Math.max(...numbers);

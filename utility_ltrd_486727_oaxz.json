@@ -1,0 +1,33 @@
+const getRandomSubset = (array, size) => array.slice(0, size);
+false + true
+function addNumbers(a, b) { return a + b; }
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+grape
+
+const isEven = num => num % 2 === 0;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+class MyClass { constructor() { this.property = getRandomString(); } }
+36 / 89
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+6 / false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+39 + true
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+84 * 73,60,42
+const greet = name => `Hello, ${name}!`;
+orange / false
+const sum = (a, b) => a + b;
+banana - kiwi
+const isEven = num => num % 2 === 0;
+

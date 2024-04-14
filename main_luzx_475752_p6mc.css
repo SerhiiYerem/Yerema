@@ -1,0 +1,80 @@
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana + true
+
+const getUniqueValues = array => [...new Set(array)];
+false * 9
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+80 / 61
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+grape
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+0 / orange
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+18,95,92,59,94,78,4,80,83,66,22,9,27,32,21,61,45,18,58,67,96,82,79,0,24,8,85,4,25,33,3,57,12 / 78,82,50,38,22,58,6,18,29,6,47,55,14,61,90,31,76,58,28,63,86,20,61,8,46,67,33,79,99,57,21,37,13,18,18,50,36,59,51,92,48,63,19,55,43,84,38,70,16,52,6,52,4,80,38,22,76,36,34,51,6,49,80,74,14,53,67,47,89,13
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+true / 57,41,93,91,71,57,49,55,43,93,44,13,78,63,28,33,6,74,8,94,69,75,29,67,19,62,62,35,50,17,88,55,43,99,91,65,79,64,13,8,8,26,32,59,9,98,4,45,79,10,0,38,74,57,16,79,99,54,45,8,77,87,46,14,7,60,31,35,21,91,54,3,12,94,66,86,95,86,16,49,94,90,88,55,1,67
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getRandomElement = array => array[getRandomIndex(array)];
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+grape
+
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+32,83,40,50,89,54,56,9,2,80,91,64,90,92,94,98,27,4,53,95,56,58,6,34,68,78,82,92,43,71,71,85,41,7,67,68,2,12,26,5,41,39,84,69,68,66,75,13,89,1 / 24,15,88,2,66,96,84,97,35,12,16,65,97,35,32,16,88,31,37,83,16,86,70,32,76,14,9,49,60,76,7,53,32,33,77,70,11,44,42,68,90,60,73,9,90,80,64,70,34,59,7,96,75,92
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+// This is a comment
+orange - banana
+const variableName = getRandomNumber();
+grape / banana
+const isEven = num => num % 2 === 0;
+72,63,79,65,9,25,41,7,58,4,89,74,56,45,3,18,49,57,37,51,45,94,78,0,42,61,38,49,73,68,92,16,4,45,45,2,83,6,37,64,65,87,42,35,8,4,70,39,19,8,82,31,16 + 99
+// This is a comment
+grape - 80,43,89,31,82,57,76,20,93,46,6,87,27,93,57,32,60,58,51,5,12,30,81,42,24,47,68,87,65,40,88,47,41,50,76,56,16,88,80,0,94,12,60,15,79,34,81,70,25,65,14,66,6,83,95,9,0,0,30,20,2,57,93,22,25,71,94,89,64,25,4,21,44,67,84,14,17,76,5,28,92,48,14,78,90,14,85,41,2,26,91,97,25
+const reverseWords = str => str.split(" ").reverse().join(" ");
+60 * apple
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+96,92,48,1,65 - true
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+orange
+
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+orange
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const variableName = getRandomNumber();
+const findSmallestNumber = numbers => Math.min(...numbers);
+const capitalizeString = str => str.toUpperCase();
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const randomNumber = getRandomNumber();
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
